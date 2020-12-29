@@ -7,3 +7,36 @@ body {
    background-color: #000;
    color: #fff;
 }
+
+h2 {
+   color: blueviolet;
+}
+
+span {
+   color: orangered;
+}
+
+/* customizing the scrollbar ================= */
+::-webkit-scrollbar {
+   width: 15px;
+}
+
+::-webkit-scrollbar-track {
+   border-radius: 10px;
+   background-color: #000;
+}
+
+::-webkit-scrollbar-thumb {
+   border-radius: 10px;
+   background-image: linear-gradient(45deg, orange, orangered);
+}
+
+/*customizing text color ====================*/
+h1 {
+   font-size: 50px;
+   background: -webkit-linear-gradient(45deg, blue, green);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+   -moz-background-clip: text;
+   -moz-text-fill-color: transparent;
+}
