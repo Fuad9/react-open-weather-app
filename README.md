@@ -1,4 +1,5 @@
 <img src="https://i.ibb.co/nLLTdb7/screencapture-localhost-3000-2020-12-29-17-55-24.png" />
+
 # React Open Weather App
 ## How to use?
 1. Clone the repo
